@@ -8,7 +8,7 @@ class Header {
     }
 
     get blogButton() {
-        return cy.contains('a','Nobl9 Blog')
+        return cy.contains('a', 'Nobl9 Blog')
     }
 
     get requestDemoButton() {
