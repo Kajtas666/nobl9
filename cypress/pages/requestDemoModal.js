@@ -12,7 +12,7 @@ class RequestDemoModal {
     }
 
     getFieldByLabel(label) {
-        return this.getIframeDocument().contains('.container-fluid body-container form label', label).parent()
+        return this.getIframeBody().contains('.container-fluid body-container form label', label).parent()
     }
 
     getInputField(label) {
